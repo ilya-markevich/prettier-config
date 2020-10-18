@@ -1,0 +1,29 @@
+{
+    "name": "prettier-config",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "check-config": "prettier --config ./config.js --write ./config.js"
+    },
+    "description": "Personal prettier configs",
+    "homepage": "https://github.com/ilya-markevich/prettier-config",
+    "bugs": {
+        "url": "https://github.com/ilya-markevich/prettier-config/issues",
+        "email": "ilya.markevich1991@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "ilya.markevich1991@gmail.com",
+        "name": "Ilya Markevich"
+    },
+    "repository": {
+        "url": "https://github.com/ilya-markevich/prettier-config",
+        "type": "github"
+    },
+    "devDependencies": {
+        "prettier": "2.1.2"
+    },
+    "peerDependencies": {
+        "prettier": "2.x"
+    }
+}
