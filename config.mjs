@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
   printWidth: 100,
   tabWidth: 2,
   useTabs: false,
@@ -10,12 +8,14 @@ module.exports = {
   jsxSingleQuote: false,
   trailingComma: 'none',
   bracketSpacing: true,
-  jsxBracketSameLine: false,
+  objectWrap: 'preserve',
+  bracketSameLine: false,
   arrowParens: 'always',
   rangeStart: 0,
   rangeEnd: Infinity,
   proseWrap: 'preserve',
   htmlWhitespaceSensitivity: 'css',
   endOfLine: 'lf',
-  embeddedLanguageFormatting: 'auto'
+  embeddedLanguageFormatting: 'auto',
+  singleAttributePerLine: false
 };
